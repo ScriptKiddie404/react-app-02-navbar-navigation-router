@@ -12,3 +12,19 @@ body {
   background-color: rgb(54, 54, 54);
   font-family: "Roboto", sans-serif;
 }
+
+.page__container {
+  width: 100%;
+  height: 100vh;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__title {
+  font-weight: bolder;
+  font-size: 3em;
+  color: white;
+  text-transform: uppercase;
+}

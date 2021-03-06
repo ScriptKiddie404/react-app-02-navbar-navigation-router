@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Home = () => {
+const Home = ({ styleType, styleTitle }) => {
     return (
-        <h1>Home</h1>
+        <div className={styleType}>
+            <h1 className={styleTitle}>Home</h1>
+        </div>
     );
 }
 

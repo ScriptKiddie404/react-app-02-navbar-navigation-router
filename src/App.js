@@ -12,6 +12,7 @@ const App = () => {
     return (
         <>
             <Navigation />
+            <Home styleType="page__container" styleTitle="page__title" />
         </>
     );
 }
