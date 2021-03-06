@@ -1,7 +1,7 @@
 # Navegación a través de React Router.
 
 ## Introducción:
-Este pequeño repositorio es para fines educativos, son mis notas y mis ejemplos para implementar la navegación en React.js de forma rápida, así mismo, este repositorio lo utilizaré como una referencia rápida a mis distintas dudas sobre este tema (odio googlear dos veces la misma cosa, así que prefiero dejar mis notas en este lugar y poder hacer copy/paste *justificado* de algo que en otrora implementé yo mismo.).
+Este pequeño repositorio es para fines educativos, son mis notas y mis ejemplos para implementar la navegación en React.js de forma rápida, así mismo, este repositorio lo utilizaré como una referencia rápida a mis distintas dudas sobre este tema (odio googlear dos veces la misma cosa, así que prefiero dejar mis notas en este lugar y poder hacer copy/paste *justificado* de algo que otrora implementé yo mismo.).
 
 ***
 
@@ -13,4 +13,10 @@ Una forma rápida para implementar la navegación es instalar el paquete [react-
 
 ```javascript
 npm i react-router-dom
+```
+```json
+{
+    "perro": "gato",
+    "gato": "perro"
+}
 ```
