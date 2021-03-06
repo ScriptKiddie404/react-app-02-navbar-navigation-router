@@ -34,4 +34,18 @@ Ahora sólo es cuestión de seguir los siguientes pasos:
         import {BrowserRouter as Router} from 'react-router-dom'
     ```
 3. En `App.js` ingresamos todo el contenido que vamos a enrutar con la etiqueta `<Router></Router>`.
-4. 
+4. Ahora con el componente Route agregamos cada componente y la ruta, así mismo nos aseguramos de tener cada Router dentro de un Switch:
+    ```JSX
+        <Router>
+            <Nav/>
+            <Switch>
+                <Route exact path="/ruta" component={nombre_componente}/>
+                <Route exact path="/otra_ruta" component={nombre_componente}/>
+            </Switch>
+        </Router>
+    ```
+5. Si de pura casualidad neecesitamos mandar algún tipo de propiedad al componente, debemos asegurarnos de usar la propiedad `render` del Route:
+    ```JSX
+        <Route exact path="/" render={() => <Componente propiedad="algo"/>}/>
+    ```
+6. Ahora sólo debemos envolver en un `<Link></Link>` aquellos elementos que actúan como un **enlace**, tanto en la barra de navegación como en cualquier otro elemento en nuestra página que se dedique a ello (llevarnos a otra página dentro del sitio).
