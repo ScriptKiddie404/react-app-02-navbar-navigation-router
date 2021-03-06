@@ -26,3 +26,12 @@ Imaginemos que tenemos nuestro archivo `App.js` en el que implementaremos la nav
   
 Y claro, también vamos a crear una barra de navegación la cual será encargada de navegar a través de estos links.
 
+Ahora sólo es cuestión de seguir los siguientes pasos:
+
+1. Importar `BrowserRouter`, `Switch` y `Route` del paquete `react-router-dom`.
+2. Le podemos dar un alias al `BrowserRouter`: 
+    ```javascript
+        import {BrowserRouter as Router} from 'react-router-dom'
+    ```
+3. En `App.js` ingresamos todo el contenido que vamos a enrutar con la etiqueta `<Router></Router>`.
+4. 

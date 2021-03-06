@@ -7,6 +7,8 @@ import Features from './pages/Features';
 import About from './pages/About';
 // Importamos el CSS:
 import './App.css';
+// Importamos todo lo necesario de react-router-dom
+import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
 const App = () => {
     return (
