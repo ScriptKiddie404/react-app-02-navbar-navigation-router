@@ -14,9 +14,15 @@ Una forma rápida para implementar la navegación es instalar el paquete [react-
 ```javascript
 npm i react-router-dom
 ```
-```json
-{
-    "perro": "gato",
-    "gato": "perro"
-}
-```
+
+## Ejemplo:
+
+Imaginemos que tenemos nuestro archivo `App.js` en el que implementaremos la navegación. Primero que nada vamos a crear cuatro páginas genéricas:
+
+* Home
+* Features
+* Contact
+* About us
+  
+Y claro, también vamos a crear una barra de navegación la cual será encargada de navegar a través de estos links.
+
