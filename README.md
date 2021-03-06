@@ -1,7 +1,7 @@
 # Navegación a través de React Router.
 
 ## Introducción:
-Este pequeño repositorio es para fines educativos, son mis notas y mis ejemplos para implementar la navegación en React.js de forma rápida, así mismo, este repositorio lo utilizaré como una referencia rápida a mis distintas dudas sobre este tema (odio googlear dos veces la misma cosa, así que prefiero dejar mis notas en este lugar y poder hacer copy/paste *justificado* de algo que otrora implementé yo mismo.).
+Este pequeño repositorio es para fines educativos sobre un determinado tema, son mis notas y mis ejemplos para implementar la navegación en React.js de forma rápida, así mismo, este repositorio lo utilizaré como una referencia rápida a mis distintas dudas sobre este tema (odio googlear dos veces la misma cosa, así que prefiero dejar mis notas en este lugar y poder hacer copy/paste *justificado* de algo que otrora implementé yo mismo.).
 
 ***
 
@@ -48,4 +48,4 @@ Ahora sólo es cuestión de seguir los siguientes pasos:
     ```JSX
         <Route exact path="/" render={() => <Componente propiedad="algo"/>}/>
     ```
-6. Ahora sólo debemos envolver en un `<Link></Link>` aquellos elementos que actúan como un **enlace**, tanto en la barra de navegación como en cualquier otro elemento en nuestra página que se dedique a ello (llevarnos a otra página dentro del sitio).
+6. Ahora sólo debemos envolver en un `<Link></Link>` aquellos elementos que actúan como un **enlace**, tanto en la barra de navegación como en cualquier otro elemento en nuestra página que se dedique a ello (llevarnos a otra página dentro del sitio). También es importante recordar que debemos importar Link desde `react-router-dom`.

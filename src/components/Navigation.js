@@ -7,7 +7,9 @@ const Navigation = () => {
 
     return (
         <nav>
-            <h1><i class="fas fa-dna" /> Logo genérico</h1>
+            <Link to="/">
+                <h1><i class="fas fa-dna" /> Logo genérico</h1>
+            </Link>
             <ul>
                 <Link to="/">
                     <li>Home</li>

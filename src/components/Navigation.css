@@ -27,7 +27,3 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
-
-a:hover {
-  border-bottom: 3px solid white;
-}
